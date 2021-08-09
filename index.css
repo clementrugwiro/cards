@@ -20,7 +20,11 @@ body{
     border: none;
 }
 p{
-    font-family: 'Trebuchet MS', sans-serif , 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lexend deca';
+    padding-right:1rem;
+    line-height: 1.4rem;
+    font-size: 15px;
+    font-weight: 400;
 }
 .card{
 
@@ -43,8 +47,9 @@ p{
 h4{
     font-size: 25px;
     font-weight: 700;
-    font-family: sans-serif;
+    font-family: 'big shoulders display', cursive;
     transform: scaleY(1.8);
+    
 }
 
 .text{
@@ -77,6 +82,8 @@ background-color: rgb(226, 133, 37);
 .btn:hover{
     height: 45px;
     width: 145px;
+    background-color: rgb(99, 153, 11);
+    cursor: pointer;
 }
 #btn1{
     color:rgb(226, 133, 37) ;
@@ -94,9 +101,9 @@ background-color: rgb(226, 133, 37);
 }
 .card-container{
     display: inline;
-    background-color: none;
+    background-color: transparent;
     padding: 10px 10px 10px 10px;
-    margin: 0;
+    margin-left: 5%;
 
 }
 .card{
