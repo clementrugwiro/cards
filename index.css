@@ -120,22 +120,36 @@ border-bottom-left-radius: 7px;
 .page-container{
     display:inline-flex;
     margin: 0;
+    
 }
 .card-container{
     display: inline;
-    /* background-color: grey; */
+     background-color: transparent; 
     /* padding: 
     justify-conte10px 10px 10px 10px; */
     margin: 0;
     justify-content: center;
     align-items: center;
     
+    
 
 }
 .card{
     width: 200px;
     height: 400px;
-    margin-left: -35%;
+    margin-left: -31%;
+    margin-top: -15px;
+}
+#card1{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 0;
+}
+#card3{
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-bottom: 10%;
 }
 
 }
