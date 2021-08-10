@@ -28,14 +28,13 @@ p{
 }
 .card{
 
-    padding-left: 18px; 
+    padding-left: 1.5rem; 
     padding-right: 10px;   
     text-align: left;
     width: 250px;
     height: 420px;
     justify-self: center;
     color: white;
-    border-radius: 7px;
     border: none;
 }
 .card:hover{
@@ -49,6 +48,7 @@ h4{
     font-weight: 700;
     font-family: 'big shoulders display', cursive;
     transform: scaleY(1.8);
+    letter-spacing: 0.3rem;
     
 }
 
@@ -59,12 +59,16 @@ h4{
 }
 #card1{
 background-color: rgb(226, 133, 37);
+border-top-left-radius: 7px;
+border-bottom-left-radius: 7px;
 }
 #card2{
     background-color: rgb(1, 105, 114);
 }
 #card3{
     background-color: rgb(0, 64, 63);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius:7px ; 
 }
 
 .btn{
@@ -74,15 +78,33 @@ background-color: rgb(226, 133, 37);
     width: 140px;
     border-radius: 49px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
     padding: 10px auto;
 }
-.btn:hover{
+#btn1:hover{
     height: 45px;
     width: 145px;
-    background-color: rgb(99, 153, 11);
+    background-color: rgb(226, 133, 37);
+    border: 1.8px solid white;
+    color: white;
+    cursor: pointer;
+}
+#btn2:hover{
+    height: 45px;
+    width: 145px;
+    background-color: rgb(1, 105, 114);
+    border: 1.8px solid white;
+    color: white;
+    cursor: pointer;
+}
+#btn3:hover{
+    height: 45px;
+    width: 145px;
+    background-color: rgb(0, 64, 63);
+    border: 1.8px solid white;
+    color: white;
     cursor: pointer;
 }
 #btn1{
@@ -101,14 +123,19 @@ background-color: rgb(226, 133, 37);
 }
 .card-container{
     display: inline;
-    background-color: transparent;
-    padding: 10px 10px 10px 10px;
-    margin-left: 5%;
+    /* background-color: grey; */
+    /* padding: 
+    justify-conte10px 10px 10px 10px; */
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
 
 }
 .card{
     width: 200px;
     height: 400px;
+    margin-left: -35%;
 }
 
 }
