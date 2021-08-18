@@ -1,22 +1,19 @@
 body{
     background-color: rgb(239, 239, 239);
-}
-.page-container{
-    top: 0;
-    left: 0;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+    left: 0; 
+    padding: 0;
+    margin: 0;
 }
 .card-container{
-    position: realtive;
+    position: relative;
     background-color: white;
     display: flex;
-    width: 940px;
-    margin: 70px 0 0 140px;
+    width: 70%;
+    margin:auto;
+    margin-top: 5%;
     box-shadow:  0 0 0.0pt 0.0pt black;
     transition: box-shadow 500ms;
-    padding: 100px 30px 60px 130px;
+    padding: 4%;
     border: none;
 }
 p{
@@ -27,11 +24,10 @@ p{
     font-weight: 400;
 }
 .card{
-
     padding-left: 1.5rem; 
     padding-right: 10px;   
     text-align: left;
-    width: 250px;
+    width: 33.3%;
     height: 420px;
     justify-self: center;
     color: white;
@@ -77,9 +73,9 @@ border-bottom-left-radius: 7px;
     height:40px;
     width: 140px;
     border-radius: 49px;
-    font-weight: 500;
-    font-size: 16px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    font-family: 'Lexend deca';
     background-color: white;
     padding: 10px auto;
 }
@@ -117,28 +113,18 @@ border-bottom-left-radius: 7px;
     color: rgb(0, 64, 63);
 }
 @media only screen and (max-width: 375px){
-.page-container{
-    display:inline-flex;
-    margin: 0;
-    
-}
+
 .card-container{
     display: inline;
-     background-color: transparent; 
-    /* padding: 
-    justify-conte10px 10px 10px 10px; */
-    margin: 0;
-    justify-content: center;
-    align-items: center;
-    
-    
+    width: 30%;
 
 }
 .card{
-    width: 200px;
-    height: 400px;
-    margin-left: -31%;
-    margin-top: -15px;
+    /* margin-bottom: px; */
+    width: 70%;
+    /* height: auto; */
+    margin: 0 auto;
+    padding-top: 6px;
 }
 #card1{
     border-top-left-radius: 7px;
@@ -149,7 +135,7 @@ border-bottom-left-radius: 7px;
     border-top-right-radius: 0;
     border-bottom-left-radius: 7px;
     border-bottom-left-radius: 7px;
-    margin-bottom: 10%;
 }
+
 
 }
